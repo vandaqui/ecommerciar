@@ -65,9 +65,53 @@ header .logo i{
     color: #ccc;
 }
 
+.header .fa-bars{
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+    display: none;
+}
 
 .home{
     min-height: 100vh;
     width: 100vw;
     background: linear-gradient(purple, var(--color));
+}
+
+/* Responsiveness */
+
+@media (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+
+    .header .fa-bars{
+        display: block;
+    }
+
+    .header .navbar{
+        position: fixed;
+        top: -120%;
+        left: 0;
+        height: auto;
+        width: 100%;
+        background-color: #fff;
+        z-index: 1000;
+        border-top: .1rem solid rgba(0, 0, 0, .3);
+    }
+
+    .header .navbar ul{
+        height: 100%;
+        width: 100%;
+        flex-flow: column;
+    }
+
+    .header .navbar ul li{
+        margin: 1rem 0;
+    }
+
+    .header .navbar ul li a{
+        color: #444;
+        font-size: 2.4rem;
+    }
 }
