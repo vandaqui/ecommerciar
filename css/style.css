@@ -412,3 +412,51 @@ header .logo i{
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.team .row .card{
+    height: 35rem;
+    width: 23rem;
+    background: white;
+    text-align: center;
+    margin: 7rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.team .row .card .image{
+    margin: 1rem 0;
+    padding-top: 4rem;
+}
+
+.team .row .card .image img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    border: .5rem solid #fff;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, .3);
+    object-fit: cover;
+}
+
+.team .row .card .info h3{
+    font-size: 2rem;
+    color: #333;
+}
+
+.team .row .card .info span{
+    font-size: 1.8rem;
+    color: var(--color)
+}
+
+.team .row .card .icons a{
+    margin-top: 4rem;
+    padding: 0 1rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.team .row .card .icons a:hover{
+    margin-top: 4rem;
+    padding: 0 1rem;
+    font-size: 2rem;
+    color: #333;
+}
