@@ -283,7 +283,7 @@ header .logo i{
 }
 
 .service .row{
-    margin: 2rem;
+    margin: 2rem 0;
     padding: 0 2rem;
     display: flex;
     align-items: center;
@@ -370,7 +370,23 @@ header .logo i{
         flex-flow: column-reverse;
         padding: 0 2rem;
     }
+
     .about .row .image img{
         width: 100vw;
     }
+
+    .service .row{
+        flex-flow: column-reverse;
+    }
+
+    .service .row:nth-child(even){
+        flex-flow: column;
+    }
+    .service .row .image img{
+        width: 100vw;
+    }
+    .service .row .content{
+        padding: 0;
+    }
+
 }
