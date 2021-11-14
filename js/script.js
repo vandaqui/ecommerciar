@@ -8,5 +8,15 @@ $(document).ready(function(){
       $(window).on('load scroll', function(){
         $('.fa-bars').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
+
+        if($(window).scrollTop() > 30){
+            $('.header').css({'background':'#6C5CE7','box-shadow':'0 .2rem 5.rem rgba(0,0,0,.4)'});
+        } else {
+            $('.header').css({'background':'none','box-shadow':'0 .2rem 5.rem rgba(0,0,0,.4)'});
+        }
+
       });
+
+
+
 });

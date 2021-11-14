@@ -253,6 +253,64 @@ header .logo i{
     padding: 1rem 0;
 }
 
+.about::before, .about::after{
+    content:'';
+    position: absolute;
+    z-index: -1;
+    opacity: .2;
+    border-radius: 50%;
+}
+
+.about::before{
+    height: 50rem;
+    width: 50rem;
+    background: #ccc;
+    bottom: -10rem;
+    left: -10rem;
+}
+
+.about::after{
+    height: 60rem;
+    width: 60rem;
+    background: var(--color);
+    top: -10rem;
+    right: -10rem;
+}
+
+.service{
+    width: 100vw;
+    text-align: center;
+}
+
+.service .row{
+    margin: 2rem;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service .row .image img{
+    width: 50vw;
+    height: 55vh;
+}
+
+.service .row .content{
+    text-align: left;
+    padding: 0 3rem;
+}
+
+.service .row .content h3{
+    font-size: 3rem;
+    color: var(--color);
+}
+
+.service .row .content p{
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
+}
+
 /* Responsiveness */
 @media (max-width: 768px){
     html{
