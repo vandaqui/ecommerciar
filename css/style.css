@@ -390,3 +390,25 @@ header .logo i{
     }
 
 }
+
+.team{
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #222;
+}
+
+.team .heading {
+    color: #fff;
+}
+
+.team .heading::before, .team .heading::after {
+    border-color: #fff;
+}
+
+.team .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
