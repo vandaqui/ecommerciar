@@ -550,6 +550,23 @@ header .logo i{
         padding: 0;
     }
 
+    .faq{
+        padding:0;
+    }
+    
+    .faq .row{
+        padding:0 1rem;
+        flex-flow: column;
+    }
+    
+    .faq .row .image img{
+        width:100vw;
+    }
+    
+    .faq .row .accordion-container{
+        width:100%;
+    }
+
 }
 
 @media (max-width:550px){
