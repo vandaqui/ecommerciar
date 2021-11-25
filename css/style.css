@@ -62,8 +62,7 @@ overflow-x: hidden;
     background: var(--lightyellow);
     color: #fff;
     cursor: pointer;
-    height: 3.5rem;
-    width: 15rem;
+    padding: 1rem;
     font-size: 1.7rem;
     box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .3);
 }
@@ -252,7 +251,7 @@ header .logo i{
 
 .about .row .content h3{
     font-size: 3rem;
-    color: var(--yellow);
+    color: var(--lightyellow);
 }
 
 .about .row .content p{
