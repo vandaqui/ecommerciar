@@ -134,6 +134,12 @@ header .logo i{
     overflow: hidden !important;
 }
 
+.home .image-home{
+    width: 55rem;
+    top: 10rem;
+    right: 4rem;
+    z-index: 5;
+}
 .home .banner{
     color: #fff;
     font-size: 5rem;
