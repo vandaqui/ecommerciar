@@ -180,18 +180,13 @@ overflow-x: hidden;
     background: url(../assets/img/wave.png);
     background-size: 100rem 11rem;
     background-repeat: repeat-x;
-    animation: waves 10s linear infinite;
-}
-
-.home .wave2{
-    animation-direction: reverse;
-    opacity: .2;
+    animation: waves 25s linear infinite;
 }
 
 .home .wave3{
-    animation-duration: 4s;
+    animation-duration: 30s;
     animation-direction: reverse;
-    opacity: .5;
+
 }
 
 @keyframes waves{
