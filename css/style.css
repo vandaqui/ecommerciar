@@ -153,12 +153,6 @@ header .logo i{
     font-weight: 400;
 }
 
-.home .buttons{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
 .home .buttons button{
     height: 4rem;
     width: 18rem;
