@@ -411,14 +411,14 @@ overflow-x: hidden;
     text-align: left;
 }
 
-.faq .row .accordion-container .accordion .accordion-header{
+.faq .row .accordion-container .accordion .accordion-heading{
     background-color: var(--lightyellow);
     margin: 1rem 0;
     box-shadow: .1rem .1rem .3rem rgba(0, 0, 0, .3);
     cursor: pointer;
 }
 
-.faq .row .accordion-container .accordion .accordion-header span{
+.faq .row .accordion-container .accordion .accordion-heading span{
     display: inline-block;
     text-align: center;
     height: 4rem;
@@ -430,7 +430,7 @@ overflow-x: hidden;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
-.faq .row .accordion-container .accordion .accordion-header h3{
+.faq .row .accordion-container .accordion .accordion-heading h3{
     display: inline;
     color: #fff;
     font-weight: 400;

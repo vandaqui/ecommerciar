@@ -16,10 +16,10 @@ $(document).ready(function(){
         }
       });
 
-      $('.accordion-top-nav').click(function(){
+      $('.accordion-heading').click(function(){
         $('.accordion .accordion-body').slideUp();
         $(this).next('.accordion-body').slideDown();
-        $('.accordion .accordion-top-nav span').text('+');
+        $('.accordion .accordion-heading span').text('+');
         $(this).children('span').text('-');
       });
 
