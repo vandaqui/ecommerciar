@@ -10,16 +10,16 @@ $(document).ready(function(){
         $('.navbar').removeClass('nav-toggle');
 
         if($(window).scrollTop() > 30){
-            $('.header').css({'background':'#FFC727','box-shadow':'0 .2rem 5.rem rgba(0,0,0,.4)'});
+            $('.top-nav').css({'background':'#FFC727','box-shadow':'0 .2rem 5.rem rgba(0,0,0,.4)'});
         } else {
-            $('.header').css({'background':'none','box-shadow':'none'});
+            $('.top-nav').css({'background':'none','box-shadow':'none'});
         }
       });
 
-      $('.accordion-header').click(function(){
+      $('.accordion-top-nav').click(function(){
         $('.accordion .accordion-body').slideUp();
         $(this).next('.accordion-body').slideDown();
-        $('.accordion .accordion-header span').text('+');
+        $('.accordion .accordion-top-nav span').text('+');
         $(this).children('span').text('-');
       });
 

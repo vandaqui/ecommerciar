@@ -14,7 +14,6 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    transition: all .2s linear;
     text-decoration: none;
 }
 
@@ -72,7 +71,7 @@ overflow-x: hidden;
     opacity: .8;
 }
 
-.header{
+.top-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,41 +79,38 @@ overflow-x: hidden;
     padding: 1rem 2rem;
     position: fixed;
     top: 0;
-    left: 0;
-    z-index: 100;
+    z-index: 1;
 }
 
-.header .logo{
-    font-size: 2.5rem;
+.top-nav .logo{
+    display: block;
     color: #fff;
+    z-index: 5;
 }
 
-header .logo i{
-    padding: 0 .5rem;
-}
-
-.header .navbar ul{
+.top-nav .navbar ul{
     list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
+    width: 100%;
 }
 
-.header .navbar ul li{
+.top-nav .navbar ul li{
     margin: 0 1.5rem;
 }
 
-.header .navbar ul li a{
+.top-nav .navbar ul li a{
     font-size: 2rem;
     color: #fff;
 }
 
-.header .navbar ul li a:hover{
+.top-nav .navbar ul li a:hover{
     color: var(--yellow);
 }
 
-.header .fa-bars{
-    color: #fff;
+.top-nav .fa-bars{
+    color: rgb(255, 255, 255);
     cursor: pointer;
     font-size: 3rem;
     display: none;
@@ -139,6 +135,10 @@ header .logo i{
     top: 10rem;
     right: 4rem;
     z-index: 5;
+}
+.home .image-bar{
+    max-width: 50px;
+    z-index: 999999;
 }
 .home .banner{
     color: #fff;
@@ -483,11 +483,11 @@ header .logo i{
         font-size: 50%;
     }
 
-    .header .fa-bars{
+    .top-nav .fa-bars{
         display: block;
     }
 
-    .header .navbar{
+    .top-nav .navbar{
         position: fixed;
         top: -120%;
         left: 0;
@@ -498,26 +498,26 @@ header .logo i{
         border-top: .1rem solid rgba(0, 0, 0, .3);
     }
 
-    .header .navbar ul{
+    .top-nav .navbar ul{
         height: 100%;
         width: 100%;
         flex-flow: column;
     }
 
-    .header .navbar ul li{
+    .top-nav .navbar ul li{
         margin: 1rem 0;
     }
 
-    .header .navbar ul li a{
+    .top-nav .navbar ul li a{
         color: #444;
         font-size: 2.4rem;
     }
 
-    .header .fa-times{
+    .top-nav .fa-times{
         transform: rotate(180deg);
     }
 
-    .header .nav-toggle{
+    .top-nav .nav-toggle{
         top:5.8rem;
     }
 
