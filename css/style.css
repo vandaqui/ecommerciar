@@ -134,7 +134,6 @@ overflow-x: hidden;
     width: 55rem;
     top: 10rem;
     right: 4rem;
-    z-index: 5;
 }
 .home .image-bar{
     max-width: 50px;
