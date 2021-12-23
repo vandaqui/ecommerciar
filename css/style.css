@@ -57,7 +57,6 @@ overflow-x: hidden;
 .btn{
     outline: none;
     border: none;
-    border-radius: 5rem;
     background: var(--lightyellow);
     color: #fff;
     cursor: pointer;
@@ -80,6 +79,7 @@ overflow-x: hidden;
     position: fixed;
     top: 0;
     z-index: 1;
+    transition: all 0.2s ease;
 }
 
 .top-nav .logo{
