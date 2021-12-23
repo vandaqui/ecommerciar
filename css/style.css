@@ -119,7 +119,7 @@ overflow-x: hidden;
 .home{
     min-height: 100vh;
     width: 100vw;
-    background: linear-gradient(black, var(--black));
+    background: linear-gradient(var(--lightyellow), rgb(252, 255, 90), var(--lightyellow));
     display: flex;
     align-items: center;
     justify-content: center;
