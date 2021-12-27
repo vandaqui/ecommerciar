@@ -33,7 +33,7 @@ overflow-x: hidden;
     padding-top: 6rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: var(--lightyellow);
+    color: var(--black);
     position: relative;
     letter-spacing: .2rem;
 }
@@ -43,8 +43,8 @@ overflow-x: hidden;
     position: absolute;
     height: 2.5rem;
     width: 2.5rem;
-    border-top: .4rem solid var(--lightyellow);
-    border-left: .4rem solid var(--lightyellow);
+    border-top: .4rem solid var(--black);
+    border-left: .4rem solid var(--black);
 }
 
 .heading::before{
@@ -61,7 +61,7 @@ overflow-x: hidden;
     padding-top: 4rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: var(--lightyellow);
+    color: var(--black);
     position: relative;
     letter-spacing: .2rem;
 }
@@ -71,8 +71,8 @@ overflow-x: hidden;
     position: absolute;
     height: 2.5rem;
     width: 2.5rem;
-    border-top: .4rem solid var(--lightyellow);
-    border-left: .4rem solid var(--lightyellow);
+    border-top: .4rem solid var(--black);
+    border-left: .4rem solid var(--black);
 }
 
 .heading-plans::before{
