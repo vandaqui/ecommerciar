@@ -1,6 +1,9 @@
-
+/* Global Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
-
+/* Pricing Font */
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:800);
 
 :root{
     --black: #29303A;
@@ -52,6 +55,38 @@ overflow-x: hidden;
     bottom:-.5rem;
     right: -2rem;
     transform: rotate(180deg);
+}
+.heading-plans{
+    margin: 2rem;
+    padding-top: 4rem;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: var(--lightyellow);
+    position: relative;
+    letter-spacing: .2rem;
+}
+
+.heading-plans::before, .heading-plans::after {
+    content: '';
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-top: .4rem solid var(--lightyellow);
+    border-left: .4rem solid var(--lightyellow);
+}
+
+.heading-plans::before{
+    top:4rem;
+    left: -2rem;
+}
+.heading-plans::after{
+    bottom:-.5rem;
+    right: -2rem;
+    transform: rotate(180deg);
+}
+.heading-split{
+    text-align: center;
+    padding-bottom: 4rem;
 }
 
 .btn{
@@ -402,47 +437,44 @@ overflow-x: hidden;
 }
 
 /* Pricing Table */
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:800);
 .plans {
-  display: flex;
-  font-family: 'Raleway', Arial, sans-serif;
-  color: #000000;
-  text-align: center;
-  font-size: 16px;
-  width: 100%;
-  text-align: center;
-  padding: 0 2rem;
+    display: flex;
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    width: 100%;
+    padding: 0 2rem;
 }
 .plans .plan {
-  margin: 0;
-  width: 25%;
-  position: relative;
-  float: left;
-  background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+    width: 25%;
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .plans * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .plans header {
-  position: relative;
+    position: relative;
 }
 .plans .plan-title {
-  position: relative;
-  top: 0;
-  font-weight: 800;
-  padding: 5px 15px;
-  margin: 0 auto;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  margin: 0;
-  display: inline-block;
-  background-color: #222f3d;
-  color: #ffffff;
-  text-transform: uppercase;
+    position: relative;
+    top: 0;
+    font-weight: 800;
+    padding: 5px 15px;
+    margin: 0 auto;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+    display: inline-block;
+    background-color: #222f3d;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 .plans .plan-cost {
   padding: 0px 10px 20px;
