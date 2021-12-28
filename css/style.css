@@ -234,27 +234,6 @@ overflow-x: hidden;
     }
 }
 
-.home .fa-cog{
-    position: absolute;
-    font-size: 30rem;
-    opacity: .50;
-    color: var(--yellow);
-    animation: rotate 10s linear infinite;
-}
-.home .nut1{
-    top: 10%;
-    left: -15rem;
-}
-.home .nut2{
-    bottom: 23%;
-    right: -13rem;
-}
-@keyframes rotate{
-    100%{
-        transform: rotate(360deg);
-    }
-}
-
 .about{
     min-height: 100vh;
     width: 100vw;
