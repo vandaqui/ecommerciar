@@ -316,30 +316,6 @@ overflow-x: hidden;
     }
 }
 
-.service::before, .service::after{
-    content:'';
-    position: absolute;
-    z-index: -1;
-    opacity: .2;
-    border-radius: 50%;
-}
-
-.service::before{
-    height: 50rem;
-    width: 50rem;
-    background: #ccc;
-    bottom: -10rem;
-    left: -10rem;
-}
-
-.service::after{
-    height: 60rem;
-    width: 60rem;
-    background: var(--lightyellow);
-    top: -10rem;
-    right: -10rem;
-}
-
 .service{
     width: 100vw;
     text-align: center;
