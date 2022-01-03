@@ -38,5 +38,5 @@ $(document).on('click', 'a[href^="#"]', function(e) {
   // top position relative to the document
   var pos = $id.offset().top;
   // animated top scrolling
-  $('body, html').animate({scrollTop: pos});
+  $('body, html').animate({scrollTop: pos}, 1000);
 });
