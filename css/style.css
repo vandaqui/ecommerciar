@@ -39,24 +39,6 @@ overflow-x: hidden;
     letter-spacing: .2rem;
 }
 
-.heading::before, .heading::after {
-    content: '';
-    position: absolute;
-    height: 2.5rem;
-    width: 2.5rem;
-    border-top: .4rem solid var(--black);
-    border-left: .4rem solid var(--black);
-}
-
-.heading::before{
-    top:5.8rem;
-    left: -2rem;
-}
-.heading::after{
-    bottom:-.5rem;
-    right: -2rem;
-    transform: rotate(180deg);
-}
 .heading-plans{
     margin: 2rem;
     padding-top: 4rem;
