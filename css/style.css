@@ -725,3 +725,12 @@ overflow-x: hidden;
     }
   }
   
+
+  /* FAQ Page */
+  .faq .row .image-faq img{
+    position: absolute;
+    height: 57vh;
+    width: 50vw;
+    left: -200px;
+    z-index: -1;
+}
