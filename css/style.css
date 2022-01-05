@@ -734,3 +734,6 @@ overflow-x: hidden;
     left: -200px;
     z-index: -1;
 }
+.navbar .dark{
+    color: var(--black) !important;
+}
