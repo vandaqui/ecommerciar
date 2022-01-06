@@ -726,7 +726,7 @@ overflow-x: hidden;
   }
   
 
-  /* FAQ Page */
+/* FAQ Page */
   .faq .row .image-faq img{
     position: absolute;
     height: 57vh;
@@ -736,4 +736,55 @@ overflow-x: hidden;
 }
 .navbar .dark{
     color: var(--black) !important;
+}
+
+/* Sucess Page */
+.sucess{
+    width: 100vw;
+    text-align: center;
+}
+
+.sucess .row{
+    margin: 2rem 0;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sucess .row .image img{
+    max-width: 35vw;
+    max-height: 55vh;
+}
+
+.sucess .row .content{
+    text-align: left;
+    padding: 0 6rem;
+}
+
+.sucess .row .content h3{
+    font-size: 3rem;
+    color: var(--lightyellow);
+}
+
+.sucess .row .content p{
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px){
+    .sucess .row{
+        flex-flow: column-reverse;
+    }
+
+    .sucess .row:nth-child(even){
+        flex-flow: column;
+    }
+    .sucess .row .image img{
+        max-width: 100vw;
+    }
+    .sucess .row .content{
+        padding: 0;
+    }
 }
