@@ -8,4 +8,4 @@ As of January 2022, you will find three sections:
 2. Success.html - Customer's websites
 3. faq.html - Frequently Asked Questions.
 
-### The website is powered by HTML/CSS/JQUERY.
+The website is powered by HTML/CSS/JQUERY.
