@@ -727,9 +727,18 @@ overflow-x: hidden;
   
 
 /* FAQ Page */
-  .faq .row .image-faq img{
+.heading-faq, .heading-sucess{
+    margin: 2rem;
+    padding-top: 6rem;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: var(--black);
+    position: relative;
+    letter-spacing: .2rem;
+}
+.faq .row .image-faq img{
     position: absolute;
-    height: 57vh;
+    height: 51vh;
     width: 50vw;
     left: -200px;
     z-index: -1;
@@ -753,7 +762,7 @@ overflow-x: hidden;
 }
 
 .sucess .row .image img{
-    max-width: 35vw;
+    max-width: 26vw;
     max-height: 55vh;
 }
 
