@@ -175,6 +175,13 @@ overflow-x: hidden;
     display: flex;
     flex-wrap: wrap;
 }
+.buttons-box-trial{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .button-spacing{
     padding: 10px;
 }
@@ -333,23 +340,23 @@ overflow-x: hidden;
 }
 
 .chevron:before, .chevron:after {
-content: '';
-position: absolute;
-top: 0;
-height: 100%;
-width: 50%;
-background: #2c3e50;
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #2c3e50;
 }
 
 .chevron:before {
-left: 0;
-transform: skewY(30deg);
+    left: 0;
+    transform: skewY(30deg);
 }
 
 .chevron:after {
-right: 0;
-width: 50%;
-transform: skewY(-30deg);
+    right: 0;
+    width: 50%;
+    transform: skewY(-30deg);
 }
    
 @keyframes move-chevron {
@@ -507,7 +514,8 @@ transform: skewY(-30deg);
 }
 
 .plans-wrap{
-    background-color: #29303a;
+    background: url(../assets/img/back4.jpg);
+    background-size: cover;
 }
 .plans .plan {
     margin: 0;
@@ -807,7 +815,6 @@ transform: skewY(-30deg);
     .sucess .row{
         flex-flow: column-reverse;
     }
-
     .sucess .row:nth-child(even){
         flex-flow: column;
     }
