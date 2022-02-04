@@ -456,6 +456,7 @@ overflow-x: hidden;
 .plans-wrap{
     background: url(../assets/img/back4.jpg);
     background-size: cover;
+    padding-top: 8em;
 }
 .plans .plan {
     margin: 0;
