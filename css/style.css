@@ -499,6 +499,9 @@ overflow-x: hidden;
 .plans .plan-type {
     opacity: 0.6;
 }
+.plans .plan-onetime {
+    opacity: 0.6;
+}
 .plans .plan-features {
     padding: 0;
     margin: 0;
