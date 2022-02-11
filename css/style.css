@@ -699,9 +699,9 @@ overflow-x: hidden;
   
 
 /* FAQ Page */
-.heading-faq, .heading-sucess{
+.heading-faq{
     margin: 2rem;
-    padding-top: 6rem;
+    padding-top: 10rem;
     display: inline-block;
     font-size: 3.5rem;
     color: var(--black);
@@ -720,6 +720,15 @@ overflow-x: hidden;
 }
 
 /* Sucess Page */
+.heading-sucess{
+    margin: 2rem;
+    padding-top: 10rem;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: var(--black);
+    position: relative;
+    letter-spacing: .2rem;
+}
 .sucess{
     width: 100vw;
     text-align: center;
@@ -763,4 +772,40 @@ overflow-x: hidden;
     .sucess .row .content{
         padding: 0;
     }
+}
+
+
+/* Terms Page */
+.heading-terms{
+    margin: 2rem;
+    padding-top: 10rem;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: var(--black);
+    position: relative;
+    letter-spacing: .2rem;
+}
+.terms{
+    width: 100vw;
+    text-align: center;
+}
+.terms .row{
+    margin: 2rem 0;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.terms .row .content{
+    text-align: left;
+    padding: 0 6rem;
+}
+.terms .row .content h3{
+    font-size: 3rem;
+    color: var(--lightyellow);
+}
+.terms .row .content p{
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
 }
