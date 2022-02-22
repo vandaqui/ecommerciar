@@ -648,25 +648,24 @@ overflow-x: hidden;
     .home .slogan{
         font-size:  1.7rem;
     }
-
     .home .wave{
         position: absolute;
     }
-
     .service .row{
         flex-flow: column-reverse;
     }
-
     .service .row:nth-child(even){
         flex-flow: column;
     }
     .service .row .image img{
         width: 100vw;
+        height: 30vh;
+        margin-top: 4em;
+        margin-bottom: 2em;
     }
     .service .row .content{
         padding: 0;
     }
-
     .faq{
         padding:0;
     }
@@ -675,11 +674,10 @@ overflow-x: hidden;
         padding:0 1rem;
         flex-flow: column;
     }
-
     .faq .row .image img{
         width:100vw;
+        height: 35vh;
     }
-
     .faq .row .accordion-container{
         width:100%;
     }
