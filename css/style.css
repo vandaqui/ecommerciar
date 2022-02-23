@@ -618,30 +618,24 @@ overflow-x: hidden;
         z-index: 1000;
         border-top: .1rem solid rgba(0, 0, 0, .3);
     }
-
     .top-nav .navbar ul{
         height: 100%;
         width: 100%;
         flex-flow: column;
     }
-
     .top-nav .navbar ul li{
         margin: 1rem 0;
     }
-
     .top-nav .navbar ul li a{
         color: #444;
         font-size: 2.4rem;
     }
-
     .top-nav .fa-times{
         transform: rotate(180deg);
     }
-
     .top-nav .nav-toggle{
         top:6.8rem;
     }
-
     .home .banner{
         font-size:  4rem;
     }
@@ -666,10 +660,12 @@ overflow-x: hidden;
     .service .row .content{
         padding: 0;
     }
+    .btn{
+        width: 100%;
+    }
     .faq{
         padding:0;
     }
-
     .faq .row{
         padding:0 1rem;
         flex-flow: column;
