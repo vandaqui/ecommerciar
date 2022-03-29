@@ -603,7 +603,6 @@ overflow-x: hidden;
     html{
         font-size: 50%;
     }
-
     .top-nav .fa-bars{
         display: block;
     }
@@ -754,9 +753,16 @@ overflow-x: hidden;
     padding: 1rem 0;
 }
 
+.success .row{
+    flex-direction: row-reverse;
+}
+.success .row:nth-child(even){
+    flex-direction: row;
+}
+
 @media (max-width: 768px){
     .success .row{
-        flex-flow: column-reverse;
+        flex-flow: column;
     }
     .success .row:nth-child(even){
         flex-flow: column;
