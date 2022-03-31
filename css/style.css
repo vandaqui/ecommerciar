@@ -571,7 +571,7 @@ overflow-x: hidden;
   }
   .plans .plan-cost,
   .plans .featured .plan-cost {
-    padding: 20px 10px 20px;
+    padding: 0px 10px 20px;
   }
   .plans .plan-select,
   .plans .featured .plan-select {
@@ -589,6 +589,7 @@ overflow-x: hidden;
   .plans .plan-title{
       width: 100%;
       padding: 8px 15px;
+      margin-bottom: 12px;
   }
   .plans .plan-select a{
       padding: 0.6em 1em; 
