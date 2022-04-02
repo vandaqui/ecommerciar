@@ -646,10 +646,10 @@ overflow-x: hidden;
         position: absolute;
     }
     .service .row{
-        flex-flow: column-reverse;
+        flex-direction: column-reverse;
     }
     .service .row:nth-child(even){
-        flex-flow: column;
+        flex-direction: column;
     }
     .service .row .image img{
         width: 100vw;
