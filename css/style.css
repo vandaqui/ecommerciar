@@ -646,13 +646,14 @@ overflow-x: hidden;
         position: absolute;
     }
     .service .row{
-        flex-direction: column-reverse;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .service .row:nth-child(even){
-        flex-direction: column;
+        flex-direction: row-reverse;
     }
     .service .row .image img{
-        width: 100vw;
+        width: 43vw;
         height: 30vh;
         margin-top: 4em;
         margin-bottom: 2em;
@@ -692,6 +693,14 @@ overflow-x: hidden;
     }
   }
   
+  @media (min-width: 768px){
+    .service .row{
+        flex-direction: row;
+    }
+    .service .row:nth-child(even){
+        flex-direction: row-reverse;
+    }
+  }
 
 /* FAQ Page */
 .heading-faq{
