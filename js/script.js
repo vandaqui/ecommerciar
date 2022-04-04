@@ -9,7 +9,7 @@ $(document).ready(function(){
         $('.fa-bars').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
 
-        if($(window).scrollTop() > 30){
+        if($(window).scrollTop() > 10){
             $('.top-nav').css({'background':'#FFC727','box-shadow':'0 .2rem 5.rem rgba(0,0,0,.4)','z-index': '100'});
         } else {
             $('.top-nav').css({'background':'none','box-shadow':'none'});
