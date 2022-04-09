@@ -763,10 +763,10 @@ overflow-x: hidden;
 
 @media (max-width: 768px){
     .success .row{
-        flex-flow: column;
+        flex-flow: column-reverse;
     }
     .success .row:nth-child(even){
-        flex-flow: column;
+        flex-flow: column-reverse;
     }
     .success .row .image img{
         max-width: 100vw;
