@@ -325,7 +325,7 @@ overflow-x: hidden;
     }
 }
 
-/* Arrow */
+/* Chevron */
 .next-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1031,12 +1031,14 @@ overflow-x: hidden;
     max-height: 55vh;
 }
 .performance .row .divided-column{
+    margin-bottom: 5rem;
+}
+.performance .row .divided-column{
     display: flex;
     justify-content: center;
 }
 .performance .row .divided-column .chevron{
     width: 2.2rem;
-    transform: rotate(90deg);
 }
 
 .performance .row{
@@ -1052,5 +1054,86 @@ overflow-x: hidden;
     }
     .performance .row:nth-child(even){
 
+    }
+}
+
+.chevron-h {
+    position: absolute;
+    width:  3.5rem;
+    height:  0.8rem;
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+        -ms-transform: scale(0.3);
+            transform: scale(0.3);
+    -webkit-animation: move-chevron-h 3s ease-out infinite;
+            animation: move-chevron 3s ease-out infinite;
+}
+.chevron-h:first-child {
+    -webkit-animation: move-chevron-h 3s ease-out 1s infinite;
+            animation: move-chevron 3s ease-out 1s infinite;
+}
+.chevron-h:nth-child(2) {
+    -webkit-animation: move-chevron-h 3s ease-out 2s infinite;
+            animation: move-chevron-h 3s ease-out 2s infinite;
+}
+.chevron-h:before, .chevron-h:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #2c3e50;
+}
+.chevron-h:before {
+    left: 0;
+    -webkit-transform: skewY(332deg);
+        -ms-transform: skewY(332deg);
+            transform: skewY(332deg);
+}
+.chevron-h:after {
+    top: -10px;
+    width: 50%;
+    -webkit-transform: skewY(31deg);
+        -ms-transform: skewY(31deg);
+            transform: skewY(31deg);
+}
+@-webkit-keyframes move-chevron-h {
+    25% {
+        opacity: 1;
+        }
+    33.3% {
+        opacity: 1;
+        -webkit-transform: translateY(3.8rem);
+                transform: translateY(3.8rem);
+    }
+    66.6% {
+        opacity: 1;
+        -webkit-transform: translateY(var(--base) * 5.2);
+                transform: translateY(var(--base) * 5.2);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(var(--base) * 8) scale(0.5);
+                transform: translateY(var(--base) * 8) scale(0.5);
+    }
+}
+@keyframes move-chevron-h {
+    25% {
+        opacity: 1;
+        }
+    33.3% {
+        opacity: 1;
+        -webkit-transform: translateY(3.8rem);
+                transform: translateY(3.8rem);
+    }
+    66.6% {
+        opacity: 1;
+        -webkit-transform: translateY(var(--base) * 5.2);
+                transform: translateY(var(--base) * 5.2);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(var(--base) * 8) scale(0.5);
+                transform: translateY(var(--base) * 8) scale(0.5);
     }
 }
