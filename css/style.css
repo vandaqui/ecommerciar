@@ -1025,10 +1025,9 @@ overflow-x: hidden;
         -ms-flex-pack: center;
             justify-content: center;
 }
-.performance .row .image img{
-    margin: 4rem;
-    max-width: 26vw;
-    max-height: 55vh;
+.performance .row .main-column .main-image{
+    display: flex;
+    justify-content: center;
 }
 .performance .row .divided-column{
     margin-bottom: 5rem;
@@ -1037,6 +1036,9 @@ overflow-x: hidden;
 }
 .performance .row .divided-column .sec-column-l h3{
     font-size: 2em;
+}
+.performance .row .divided-column .sec-column-m{
+    position: relative;
 }
 .performance .row .divided-column .sec-column-m .chevron-h{
     top: 50px;
