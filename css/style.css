@@ -984,11 +984,12 @@ overflow-x: hidden;
     padding-top: 10rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: var(--black);
+    color: white;
     position: relative;
     letter-spacing: .2rem;
 }
 .terms{
+    background-color: rgb(22, 22, 22);
     width: 100vw;
     text-align: center;
 }
@@ -1011,11 +1012,12 @@ overflow-x: hidden;
 }
 .terms .row .content h3{
     font-size: 3rem;
+    letter-spacing: .2rem;
     color: var(--lightyellow);
 }
 .terms .row .content p{
     font-size: 1.5rem;
-    color: #333;
+    color: white;
     padding: 1rem 0;
 }
 
