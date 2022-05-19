@@ -1054,11 +1054,16 @@ overflow-x: hidden;
     justify-content: center;
 }
 .performance .row .divided-column{
+    padding: 10px;
     margin-bottom: 5rem;
     display: flex;
     justify-content: center;
 }
+.performance .row .divided-column .sec-column-l{
+    margin-right: 1em;;
+}
 .performance .row .divided-column .sec-column-l h3{
+    text-align: right;
     font-size: 2em;
 }
 .performance .row .divided-column .sec-column-m{
@@ -1067,6 +1072,9 @@ overflow-x: hidden;
 .performance .row .divided-column .sec-column-m .chevron-h{
     top: 50px;
     left: -30px;
+}
+.performance .row .divided-column .sec-column-r{
+    margin-left: 1em;
 }
 .performance .row .divided-column .sec-column-r h3{
     font-size: 2em;
