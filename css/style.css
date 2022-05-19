@@ -1085,6 +1085,12 @@ overflow-x: hidden;
 .performance .row .divided-column .chevron{
     width: 2.2rem;
 }
+.performance .row .single-column{
+    padding: 10px;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
 .performance .row .metric{
     height: 150px;
     width: 400px;
